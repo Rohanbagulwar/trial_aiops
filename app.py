@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+ifrom flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
@@ -48,8 +48,6 @@ def math_operation_via_postman():
         return jsonify(result)
 
 
-if __name__ == '__main__':
-    app.run(host="127.0.0.1", port=8080,debug=True)
 
 
 #class defination will be added to master branch..
